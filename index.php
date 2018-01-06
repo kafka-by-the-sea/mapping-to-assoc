@@ -1,6 +1,3 @@
-# mapping-to-assoc
-
-```php
 <?php
 use Illuminate\Support\Collection;
 require_once 'vendor/autoload.php';
@@ -55,4 +52,3 @@ $emailLookup = collect($employees)->mapToAssoc(function ($employee) {
 });
 
 dd($emailLookup);
-```
